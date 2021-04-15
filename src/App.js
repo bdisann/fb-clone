@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Feed from "./components/Feed";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Login from "./components/Login";
 import Sidebar from "./components/Sidebar";
@@ -23,6 +24,7 @@ function App() {
           </AppBody>
         </>
       )}
+      <Footer />
     </AppContainer>
   );
 }

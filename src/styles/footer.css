@@ -1,0 +1,11 @@
+.footer {
+  padding: 20px;
+  border-top: 1px solid lightgray;
+  background-color: white;
+  text-align: center;
+}
+
+.footer > p > a {
+  text-decoration: none;
+  color: inherit;
+}
